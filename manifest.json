@@ -1,0 +1,51 @@
+{
+    "name": "Grocc",
+    "short_name": "Grocc",
+    "start_url": "drawer.html",
+    "display": "fullscreen",
+    "background_color": "#efefef",
+    "theme_color": "#1d28ad",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "assets/images/favicon72.png",
+            "type": "image/png",
+            "sizes": "72x72"
+        },
+        {
+            "src": "assets/images/favicon96.png",
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "assets/images/favicon128.png",
+            "type": "image/png",
+            "sizes": "128x128"
+        },
+        {
+            "src": "assets/images/favicon144.png",
+            "type": "image/png",
+            "sizes": "144x144"
+        },
+        {
+            "src": "assets/images/favicon152.png",
+            "type": "image/png",
+            "sizes": "152x152"
+        },
+        {
+            "src": "assets/images/favicon192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "assets/images/favicon384.png",
+            "type": "image/png",
+            "sizes": "384x384"
+        },
+        {
+            "src": "assets/images/favicon512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}
