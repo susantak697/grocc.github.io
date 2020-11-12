@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="generator" content="">
@@ -19,6 +20,13 @@
     <link rel="icon" href="assets/images/favicon16.png" sizes="16x16" type="image/png">
     <link href="assets/css/icons.min.css" rel="stylesheet" />
     <link href="assets/css/style.min.css" rel="stylesheet" />
+    <style>
+        svg {
+            fill: #d7dcf7;
+            color: #6d7286;
+            width: 18px;
+        }
+    </style>
 </head>
 
 <body class="fixed-header">
@@ -48,13 +56,13 @@
                                     </div>
                                     <div class="in">
                                         Buttons
-                                        <span class="badge badge-danger">NEW</span>
+                                        <span class="badge badge-success badge-pill">new</span>
                                     </div>
                                 </a>
                             </li>
                             <li>
                                 <a href="drawer.html" class="item">
-                                    <div class="icon-box bg-primary text-white">
+                                    <div class="icon-box bg-green-dark-1 text-white">
                                         <span><i class="fe-pie-chart"></i></span>
                                     </div>
                                     <div class="in">
@@ -65,7 +73,7 @@
                             </li>
                             <li>
                                 <a href="card.html" class="item">
-                                    <div class="icon-box bg-primary text-white">
+                                    <div class="icon-box bg-yellow-dark-1 text-white">
                                         <span><i class="fe-pie-chart"></i></span>
                                     </div>
                                     <div class="in">
@@ -76,7 +84,7 @@
                             </li>
                             <li>
                                 <a href="#" class="item">
-                                    <div class="icon-box bg-primary text-white">
+                                    <div class="icon-box bg-red-dark-1  text-white">
                                         <span><i class="fe-pie-chart"></i></span>
                                     </div>
                                     <div class="in">Forms </div>
@@ -87,7 +95,7 @@
                         <ul class="listview noborder bg-transparent">
                             <li>
                                 <a href="buttons.html" class="item">
-                                    <div class="icon-box bg-primary text-white">
+                                    <div class="icon-box bg-blue-dark-1 text-white">
                                         <span><i class="fe-pie-chart"></i></span>
                                     </div>
                                     <div class="in">
@@ -98,7 +106,7 @@
                             </li>
                             <li>
                                 <a href="drawer.html" class="item">
-                                    <div class="icon-box bg-primary text-white">
+                                    <div class="icon-box bg-cyan-dark-1  text-white">
                                         <span><i class="fe-pie-chart"></i></span>
                                     </div>
                                     <div class="in">
@@ -155,31 +163,28 @@
         </div>
     </header><!-- header end -->
     <main class="content-Area">
-        <div class="">
+        <div class=" pt-5">
             <!-- Row -->
             <div class="row">
                 <div class="col-xl-12">
                     <section class="section-Wrap">
-                        <h5 class="section-title mt-3">Drawer </h5>
+                        <h5 class="section-title mt-3">Defaultsdf buttons</h5>
+                        <p class="mb-25">Quickly create a general button with several predefined button styles, each
+                            serving its own semantic purpose.</p>
                         <div class="row">
                             <div class="col-sm">
-                                <div class="button-list">
-                                    <button type="button" class="btn btn-primary" data-toggle="modal"
-                                        data-target="#left_modal">Left</button>
-                                    <button type="button" class="btn btn-secondary" data-toggle="modal"
-                                        data-target="#top_modal">Top</button>
-                                    <button type="button" class="btn btn-info" data-toggle="modal"
-                                        data-target="#bottm_modal">Bottom</button>
-                                    <button type="button" class="btn btn-success" data-toggle="modal"
-                                        data-target="#right_modal">Right</button>
-                                    <button type="button" class="btn btn-danger" data-toggle="modal"
-                                        data-target="#full_modal">Full Modal</button>
-                                    <button type="button" class="btn btn-warning" data-toggle="modal"
-                                        data-target="#bottom_rounded">Space</button>
+                                <div class="card card-radius">
+                                    <div class="card-body">
+                                        <i data-feather="box"></i>
+                                        <i data-feather="briefcase"></i>
+                                        <i data-feather="home"></i>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </section>
+
+
                 </div>
             </div>
             <!-- /Row -->
@@ -188,31 +193,31 @@
         <div class="appMenubottom ">
             <a href="app-index.html" class="item active">
                 <div class="col">
-                    <div class="bottomIcon"><i class="fe-home"></i></div>
+                    <div class="bottomIcon"><i data-feather="home"></i></div>
                     <strong>Overview</strong>
                 </div>
             </a>
             <a href="pages.html" class="item ">
                 <div class="col">
-                    <div class="bottomIcon"><i class="fe-file-text"></i></div>
+                    <div class="bottomIcon"><i data-feather="file-text"></i></div>
                     <strong>Pages</strong>
                 </div>
             </a>
             <a href="components.html" class="item ">
                 <div class="col">
-                    <div class="bottomIcon"><i class="fe-layers"></i></div>
+                    <div class="bottomIcon"><i data-feather="layers"></i></div>
                     <strong>Components</strong>
                 </div>
             </a>
             <a href="settings.html" class="item ">
                 <div class="col">
-                    <div class="bottomIcon"><i class="fe-settings"></i></div>
+                    <div class="bottomIcon"><i data-feather="settings"></i></div>
                     <strong>Settings</strong>
                 </div>
             </a>
             <a href="cart.html" class="item ">
                 <div class="col">
-                    <div class="bottomIcon"><i class="fe-shopping-bag"></i></div>
+                    <div class="bottomIcon"><i data-feather="shopping-bag"></i></div>
                     <strong>Cart</strong>
                 </div>
             </a>
@@ -220,139 +225,16 @@
     </main>
 
 
-    <!-- Modal Window -->
-    <div class="modal left fade" id="left_modal" tabindex="-1" role="dialog" aria-labelledby="left_modal">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Modal Title</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    Modal Content Here
-                </div>
-                <div class="modal-footer modal-footer-fixed">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Modal Window Top -->
-    <div class="modal top fade" id="top_modal" tabindex="-1" role="dialog" aria-labelledby="left_modal">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Modal Title</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    Modal Content Here
-                </div>
-                <div class="modal-footer modal-footer-fixed">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Modal Window bottom-->
-    <div class="modal bottom fade" id="bottm_modal" tabindex="-1" role="dialog" aria-labelledby="left_modal">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Modal Title</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    Modal Content Here
-                </div>
-                <div class="modal-footer modal-footer-fixed">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Modal Window -->
-    <div class="modal right fade" id="right_modal" tabindex="-1" role="dialog" aria-labelledby="left_modal">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Modal Title</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    Modal Content Here
-                </div>
-                <div class="modal-footer modal-footer-fixed">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Button trigger modal -->
 
-    <!-- Modal bottom rounded -->
-    <div class="modal bottom rounded fade" id="bottom_rounded" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    ...
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal bottom rounded -->
-    <div class="modal top full fade" id="full_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    ...
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <!-- Required jquery and libraries -->
     <script src="assets/js/jquery-3.3.1.min.js"></script>
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/vendors/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/main.js"></script>
-
-    <script src="assets/js/pwa-services.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script type="text/javascript">
+        feather.replace()
+    </script>
 </body>
 
 </html>
